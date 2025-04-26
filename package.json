@@ -1,0 +1,16 @@
+{
+  "name": "fwk-juti-project",
+  "version": "1.0.0",
+  "description": "A project to learn how to write a FE framework",
+  "private": true,
+  "workspaces": [
+    "packages/runtime"
+  ],
+  "main": "todos.js",
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
