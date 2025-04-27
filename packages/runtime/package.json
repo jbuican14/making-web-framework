@@ -1,0 +1,29 @@
+{
+  "name": "fwk-juti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/fwk-juti.js",
+  "files": [
+    "dist/fwk-juti.js"
+  ],
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "jsdom": "^26.1.0",
+    "rollup": "^4.40.0",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-filesize": "^10.0.0",
+    "vitest": "^3.1.2"
+  }
+}
